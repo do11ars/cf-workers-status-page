@@ -18,7 +18,7 @@ monitors:
   - id: zerotrust # unique identifier
     name: Zerotrust
     description: 'Cloudflare Zerotrust Remote' # default=empty
-    url: 'https://wrt.sandbox.us.kg' # URL to fetch
+    url: 'https://wrt.write.us.kg' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
@@ -35,7 +35,7 @@ monitors:
   - id: vless
     name: Vless
     description: 'Workers Server'
-    url: 'https://gcp.sandbox.us.kg'
+    url: 'https://node.write.us.kg'
     method: GET
     expectStatus: 200
     linkable: false
